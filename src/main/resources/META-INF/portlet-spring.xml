@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-init-method="afterPropertiesSet" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+	<bean id="fr.smile.socialnetworking.service.MeetupsEntryLocalService" class="fr.smile.socialnetworking.service.impl.MeetupsEntryLocalServiceImpl" />
+	<bean id="fr.smile.socialnetworking.service.MeetupsEntryLocalServiceUtil" class="fr.smile.socialnetworking.service.MeetupsEntryLocalServiceUtil">
+		<property name="service" ref="fr.smile.socialnetworking.service.MeetupsEntryLocalService" />
+	</bean>
+	<bean id="fr.smile.socialnetworking.service.persistence.MeetupsEntryPersistence" class="fr.smile.socialnetworking.service.persistence.MeetupsEntryPersistenceImpl" parent="basePersistence" />
+	<bean id="fr.smile.socialnetworking.service.MeetupsRegistrationLocalService" class="fr.smile.socialnetworking.service.impl.MeetupsRegistrationLocalServiceImpl" />
+	<bean id="fr.smile.socialnetworking.service.MeetupsRegistrationLocalServiceUtil" class="fr.smile.socialnetworking.service.MeetupsRegistrationLocalServiceUtil">
+		<property name="service" ref="fr.smile.socialnetworking.service.MeetupsRegistrationLocalService" />
+	</bean>
+	<bean id="fr.smile.socialnetworking.service.persistence.MeetupsRegistrationPersistence" class="fr.smile.socialnetworking.service.persistence.MeetupsRegistrationPersistenceImpl" parent="basePersistence" />
+</beans>
