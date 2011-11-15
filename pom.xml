@@ -8,7 +8,7 @@
 	<name>liferay-meetups-portlet</name>
 	<artifactId>liferay-meetups-portlet</artifactId>
 	<packaging>war</packaging>
-	<version>1.0</version>
+	<version>1.1-SNAPSHOT</version>
 	<description>Liferay social network meetups portlet with a space scope (not a portal one)</description>
 	<url>https://github.com/Smile-SA/liferay-meetups-portlet</url>
 
