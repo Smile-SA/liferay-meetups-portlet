@@ -28,7 +28,7 @@
 	<scm>
 		<url>https://github.com/Smile-SA/liferay-meetups-portlet/</url>
 		<connection>scm:git:git://github.com/Smile-SA/liferay-meetups-portlet.git</connection>
-		<developerConnection>scm:git:git://git@github.com:Smile-SA/liferay-meetups-portlet.git</developerConnection>
+		<developerConnection>scm:git:git://git@github.com/Smile-SA/liferay-meetups-portlet.git</developerConnection>
 	</scm>
 
 	<!-- ============== -->
