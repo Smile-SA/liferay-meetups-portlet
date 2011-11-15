@@ -1,0 +1,13 @@
+fr.smile.socialnetworking
+fr.smile.socialnetworking.hook.events
+fr.smile.socialnetworking.hook.listeners
+fr.smile.socialnetworking.meetups.portlet
+fr.smile.socialnetworking.meetups.util
+fr.smile.socialnetworking.model
+fr.smile.socialnetworking.model.impl
+fr.smile.socialnetworking.service
+fr.smile.socialnetworking.service.base
+fr.smile.socialnetworking.service.impl
+fr.smile.socialnetworking.service.messaging
+fr.smile.socialnetworking.service.persistence
+fr.smile.socialnetworking.util
