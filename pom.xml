@@ -339,7 +339,7 @@
 		</snapshotRepository>
 		<site>
 			<id>github-site</id>
-			<url>gitsite:git@github.com/sim51/javagit.git</url>
+			<url>gitsite:git@github.com/Smile-SA/liferay-meetups-portlet.git</url>
 		</site>
 	</distributionManagement>
 
