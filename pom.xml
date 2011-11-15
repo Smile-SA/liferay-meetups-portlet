@@ -167,7 +167,7 @@
 			<artifactId>util-java</artifactId>
 		</dependency>
 	</dependencies>
-	
+
 	<!-- ========= -->
 	<!-- = Build = -->
 	<!-- ========= -->
@@ -219,6 +219,14 @@
 					<artifactId>maven-war-plugin</artifactId>
 					<version>2.1.1</version>
 				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-release-plugin</artifactId>
+					<version>2.2</version>
+					<configuration>
+						<arguments>-DaltDeploymentRepository=/${altDeploymentRepository}</arguments>
+					</configuration>
+				</plugin>
 			</plugins>
 		</pluginManagement>
 		<plugins>
@@ -237,6 +245,10 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-source-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
 			</plugin>
 		</plugins>
 	</build>
