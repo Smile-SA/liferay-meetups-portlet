@@ -1,1 +1,9 @@
-Liferay social network meetups portlet with a space scope (not a portal one) for Liferay 6.0.12 EE 
+Liferay social network meetups portlet with a space scope (not a portal one) for Liferay 6.0.12 EE
+
+This project required the following liferay 6.0.12 jars to work :
+* portal-impl.jar (com.liferay / portal-impl.jar / 6.0.12)
+* portal-service.jar (com.liferay / portal-service.jar / 6.0.12)
+* util-bridge.jar (com.liferay / util-bridge.jar / 6.0.12)
+* util-java.jar (com.liferay / util-java.jar / 6.0.12)
+
+To compile this project, please, add those jars into your maven repository.
